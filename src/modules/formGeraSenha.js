@@ -17,6 +17,12 @@ export default () => {
             resultado.innerHTML = 'Escolha o tamanho da sua senha';
         }
     })
+
+    document.addEventListener('keydown', (e) => {
+        if(e.key === 'Enter'){
+            btGera.click();
+        }
+    })
 }
 
 function gera() {
