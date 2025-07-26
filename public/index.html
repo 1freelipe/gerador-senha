@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bgprimary">
+        <section class="container">
+            <h1>Gerador de senhas:</h1>
+
+            <h2>Selecione uma opção:</h2>
+            <div class="resultado"></div>
+
+            <label for="">Quantidade de caracteres</label> <input type="number" min="1" max="30" class="qtd-caracter">
+            <div class="checks">
+                <label for="">Letras maíusculas</label> <input type="checkbox" class="check-maiusculas"> <br>
+                <label for="">Letras minúsculas</label> <input type="checkbox" class="check-minusculas"> <br>
+                <label for="">Símbolos</label> <input type="checkbox" class="check-simbolos"> <br>
+                <label for="">Números</label> <input type="checkbox" class="check-numeros"> <br>
+                <button class="gerar-senha">Gerar Senha</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
